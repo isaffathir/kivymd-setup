@@ -7,15 +7,6 @@ class WindowManager(ScreenManager):
     pass
 
 class NamaProjek(MDApp):
-    CLASSES = {
-        'Home':'screens.home',
-    }
-    AUTORELOADER_PATHS = [
-        ('.', {'recursive': True})
-    ]
-    KV_FILES = [
-        'kv/home.kv',
-    ]
     def build(self):
         self.wm = WindowManager()
         screens = [
