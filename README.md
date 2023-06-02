@@ -1,6 +1,6 @@
 # KivyMD setup
 
-- [Python 3.9.13](https://www.python.org/downloads/release/python-3913/)
+- [Python 3.11.3](https://www.python.org/downloads/release/python-3113/)
 
 - Pip
  ```bash
