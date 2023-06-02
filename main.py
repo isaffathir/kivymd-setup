@@ -10,7 +10,7 @@ class NamaProjek(MDApp):
     def build(self):
         self.wm = WindowManager()
         screens = [
-            Home(name="home"),
+            Base(name="base"),
         ]
         for screen in screens:
             self.wm.add_widget(screen)

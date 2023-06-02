@@ -2,10 +2,11 @@ from kivymd.uix.screen import MDScreen
 from kivy.lang import Builder
 from kivy.properties import NumericProperty,StringProperty
 
-class Home(MDScreen):
+Builder.load_file("screens/kv/base.kv")
+
+class Base(MDScreen):
     label_text = StringProperty()
     def __init__(self, **kw):
-        Builder.load_file("kv/home.kv")
         super().__init__(**kw)
         self.count = 0
         self.label_text = str(self.count)
