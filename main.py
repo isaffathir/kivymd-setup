@@ -8,6 +8,7 @@ class WindowManager(ScreenManager):
 
 class NamaProjek(MDApp):
     def build(self):
+        self.theme_cls.material_style = "M3"
         self.wm = WindowManager()
         screens = [
             Base(name="base"),
